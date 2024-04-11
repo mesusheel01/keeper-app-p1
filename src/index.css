@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+#root {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.app{
+  background-color: rgba(255, 255, 255, 0.897);
+  height: 510px;
+}
+.header{
+  background-color: rgb(255, 196, 0);
+  height: 80px;
+  /* color:; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.note{
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  box-shadow: -10px 0px 10px 1px #aaaaaa;
+  background-color: white;
+  color: black;
+  margin: 8px 8px; 
+  padding: 8px 20px 10px; 
+  height: 60px;
+  width: 25%;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  position: relative;
+  top:60%;
+  left: 40%;
+  height: 25px;
+  width: 22%;
+}
